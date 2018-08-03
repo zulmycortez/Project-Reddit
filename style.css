@@ -1,3 +1,7 @@
-.forums {
-  border: 10px,10px,10px,10px;
+.forum {
+  list-style-type: none;
+}
+
+ul {
+  list-style-type: none;
 }

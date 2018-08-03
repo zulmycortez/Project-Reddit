@@ -14,11 +14,12 @@
 
 
 
-var addPosts = $('button').click(function(){
+$('button').click(function(){
   // var userName = $('#name').val();
   // var userText = $('#text').val();
+  $('.forum').append('<hr /><li>' +  $('#text').val() + '</li>');
+  $('.forum').append('<li><h5>' + 'Posted by: ' + '<b>'+ $('#name').val() + '</li></b></h4>');
 
-  // $('#text').append("<li>" + $('#name').val() + "</li>");
-  alert("Handler for .click() class.");
+  // alert("Handler for .click() class.");
 
   });
